@@ -40,6 +40,22 @@ A documentação da API está disponível através do Swagger UI em cada microse
 - Client Service: http://localhost:8080/swagger-ui.html
 - Insurance Service: http://localhost:8081/swagger-ui.html
 
+
+## Testes End-to-End
+
+O projeto inclui testes end-to-end que verificam a integração entre os microserviços. Para executar os testes:
+
+1. Granta que o MongoDB esteja rodando
+2. Execute o script de teste:
+```bash
+./test_end_to_end.sh
+```
+
+O script verificar o fluxo completo de:
+  - Cadastro de cliente
+  - Simulação de seguro
+  - Contratação de seguro
+
 ##
 
 Beatriz Odorcik
